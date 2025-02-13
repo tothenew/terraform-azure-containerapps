@@ -103,33 +103,12 @@ variable "container_app_environment_internal_load_balancer_enabled" {
   description = "(Optional) Should the Container Environment operate in Internal Load Balancing Mode? Defaults to `false`. Changing this forces a new resource to be created."
 }
 
-# variable "default_tags" {
-#   type        = map(string)
-#   description = "A map to add common tags to all the resources"
-#   default = {
-#     "CreatedBy" : "TTN"
-#   }
-# }
 
 variable "tags" {
   type    = map(string)
   default = {}
 }
 
-# variable "common_tags" {
-#   type        = map(string)
-#   description = "A map to add common tags to all the resources"
-#   default = {
-#     Project    = "fortis"
-#     Managed-By = "TTN"
-#   }
-# }
-
-# variable "name_prefix" {
-#   description = "Used in tags cluster and nodes"
-#   type        = string
-#   default     = "ContainerApp"
-# }
 
 variable "container_registry" {
   type = object({
