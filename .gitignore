@@ -41,6 +41,3 @@ override.tf.json
 
 # Ignore .vscode folder and all the consisting files
 .vscode/
-
-# Ignore .idea folder and all the consisting files
-.idea/
