@@ -1,6 +1,6 @@
 # Azure Container Apps Terraform Configuration
 
-[![Lint Status](https://github.com/tothenew/terraform-azure-containerapps/workflows/Lint/badge.svg)](https://github.com/tothenew/terraform-azure-containerapps/actions)
+[![Lint Status](https://github.com/tothenew/terraform-aws-template/workflows/Lint/badge.svg)](https://github.com/tothenew/terraform-aws-template/actions)
 [![LICENSE](https://img.shields.io/github/license/tothenew/terraform-azure-containerapps)](https://github.com/tothenew/terraform-azure-containerapps/blob/master/LICENSE)
 
 This repository contains Terraform configurations for deploying and managing Azure Container Apps. The configurations are designed to be modular and reusable, allowing you to easily set up and manage your containerized applications on Azure.
