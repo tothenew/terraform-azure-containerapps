@@ -1,7 +1,7 @@
 # Azure Container Apps Terraform Configuration
 
 [![Lint Status](https://github.com/tothenew/terraform-aws-template/workflows/Lint/badge.svg)](https://github.com/tothenew/terraform-aws-template/actions)
-[![LICENSE](https://img.shields.io/github/license/tothenew/terraform-azure-containerapps)](https://github.com/tothenew/terraform-azure-containerapps/blob/master/LICENSE)
+[![LICENSE](https://img.shields.io/github/license/tothenew/terraform-aws-template)](https://github.com/tothenew/terraform-aws-template/blob/master/LICENSE)
 
 This repository contains Terraform configurations for deploying and managing Azure Container Apps. The configurations are designed to be modular and reusable, allowing you to easily set up and manage your containerized applications on Azure.
 
@@ -333,7 +333,7 @@ Module managed by [TO THE NEW Pvt. Ltd.](https://github.com/tothenew)
 
 ## License
 
-Apache 2 Licensed. See [LICENSE](https://github.com/tothenew/terraform-azure-containerapps/blob/main/LICENSE) for full details.
+Apache 2 Licensed. See [LICENSE](https://github.com/tothenew/terraform-aws-template/blob/main/LICENSE) for full details.
 
 
 This updated README provides a comprehensive overview of the repository, including detailed explanations of the acr-ca and simple-ca examples. It ensures that users can easily understand and use the provided Terraform configurations for different scenarios.
