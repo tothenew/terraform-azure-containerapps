@@ -26,7 +26,7 @@ module "container_apps" {
       revision_mode = "Single"
 
       identity_ids = [
-        "/subscriptions/75223151-1800-43db-a8f3-b7fe605d3385/resourceGroups/MC_Iman_Iman_centralindia/providers/Microsoft.ManagedIdentity/userAssignedIdentities/Iman-agentpool"
+        "your_user_assigned_identity_id"
       ]
 
       template = {

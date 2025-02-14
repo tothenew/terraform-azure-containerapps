@@ -18,8 +18,8 @@ module "container_apps" {
   container_app_environment_name = "containerapp-test1"
 
   container_registry = {
-  name                = "demo1264"
-  resource_group_name = "Iman"
+  name                = "your_repo_name"
+  resource_group_name = "your_registry_resource_group_name"
 }
 
   container_apps = {
@@ -28,7 +28,7 @@ module "container_apps" {
       revision_mode = "Single"
 
       identity_ids = [
-        "/subscriptions/75223151-1800-43db-a8f3-b7fe605d3385/resourceGroups/MC_Iman_Iman_centralindia/providers/Microsoft.ManagedIdentity/userAssignedIdentities/Iman-agentpool"
+        "your_user_assigned_identity_id"
       ]
 
       template = {
@@ -37,7 +37,7 @@ module "container_apps" {
             name   = "countingservicetest1"
             memory = "0.5Gi"
             cpu    = 0.25
-            image  = "docker.io/hashicorp/counting-service:0.0.2"
+            image  = "your_registry_image"
             env = [
               {
                 name  = "PORT"
@@ -51,7 +51,7 @@ module "container_apps" {
       registry = [
         {
           server   = "demo1264.azurecr.io"
-          identity = "/subscriptions/75223151-1800-43db-a8f3-b7fe605d3385/resourceGroups/MC_gaurav_AZD-demo-cluster_centralindia/providers/Microsoft.ManagedIdentity/userAssignedIdentities/AZD-demo-cluster-agentpool"
+          identity = "your_user_assigned_identity_id"
         }
       ]
 
