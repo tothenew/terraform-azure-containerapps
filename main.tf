@@ -119,11 +119,3 @@ resource "azurerm_container_app" "container_app" {
     }
   }
 }
-
-# resource "azurerm_role_assignment" "acr_pull" {
-#   for_each = var.container_registry != null ? azurerm_container_app.container_app : {}
-
-#   scope                = data.azurerm_container_registry.existing_acr[0].id
-#   role_definition_name = "AcrPull"
-#   principal_id         = each.value.identity[0].principal_id
-# }
